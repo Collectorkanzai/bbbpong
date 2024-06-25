@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.game-container {
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+canvas {
+  border: 2px solid white;
+}
